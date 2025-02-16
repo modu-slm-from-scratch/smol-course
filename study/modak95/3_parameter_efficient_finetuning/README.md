@@ -5,7 +5,11 @@
   
 ## 2. Llama 1b 모델튜닝 
 - "HuggingFaceTB/SmolLM2-135M"의 성능이 기대에 미치지 못해 "meta-llama/Llama-3.2-1B" 모델 튜닝을 시도.
-
+- 기존 하이퍼 파라미터 동일. 
+- rank_dimension = 6, 32
+- lora_alpha = 8, 64
+- lora_dropout = 0.05
+- 
 ## 학습 결과(한국어)
 ```json
 [
